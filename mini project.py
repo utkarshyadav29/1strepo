@@ -33,9 +33,7 @@ def show_results():
     for candidate, count in votes.items():
         print(f"{candidate}: {count} votes")
 
-    # Find winner
-    winner = max(votes, key=votes.get)
-    print(f"\n🏆 Winner: {winner} with {votes[winner]} votes!")
+ 
 
 # Step 3: Main program
 while True:
@@ -56,3 +54,4 @@ while True:
     else:
         print("❌ Invalid option! Please choose again.")
         
+
